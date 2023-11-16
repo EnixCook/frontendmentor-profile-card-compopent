@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_svg {
+    position: absolute;
+    top: -25%;
+    left: -15%;
+    z-index: -1;
+}
+.bottom_svg {
+    z-index: -1;
+    position: absolute;
+    bottom: -25%;
+    right: -15%;
+}
+
+.header {
+    background: url(images/bg-pattern-card.svg);
+    width: 375px;
+    min-height: 140px;
+    background-color: hsl(185, 75%, 39%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card_wrapper {
+    float: left;
+    margin-top:auto;
+    width: 375px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.stats_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    width: 375px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.userdata .name{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 10px;
+}
+
+.userdata .age{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.userdata{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    padding-top: 50px;
+    height: 150px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 5px solid white;
+    background: url(images/image-victor.jpg);
+}
+
+.stats{
+    width: 125px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats .number{
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.stats .label{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
